@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/semibold"
+            android:text="Menjaga Anak"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/regular"
+            android:lineSpacingExtra="@dimen/_4sdp"
+            android:text="Kalian pasti tidak asing dengan menjaga anak, pengertian menjaga anak yakni merawat balita anda dengan penuh kasih saying, memberikan makanan, mengantar sekolah, memandikan bayi dan juga mengantarkan bayi supaya cepat tidur. Pekerjaan yang dilakukan merupakan pekerjaan wajar harian, pekerjaan ini mulai dari pukul 06.00 sampai dengan pukul 17.00. anda sebagai pengguna dapat menyewa pekerja dalam kisaran waktu 1 hari, 1 minggu dan bisa juga 1 bulan. Nah ada menu tawaran lagi nih.. . Nah ada menu tawaran lagi nih.. apabila anda ingin memberikan tempat penginapan atau menambah jam kerja kepada pekerja anda bisa menghubungi owner melalui  menu inbox yaa, tepatnya dimenu notifikasi.
+
+PERSYARATAN:
+\n1.	Di menu layanan terdapat pilihan (alat dibawa oleh pekerja  atau alat sudah disediakan). Apabila Anda ingin menggunakan alat pribadi maka ketuk menu alat pribadi, dan apabila menggunakan perlatan yang dibawa pekerja maka terdapat biaya tambahan lohh, jadi teliti lah ya
+\n2.	Awasi barang dan juga perlatan berharga yaaa, karena apabila terjadi kehilangan barang anda, owner tidak bertanggung jawab pada hal itu. Jadi tetap siaga ya!
+\n3.	Biaya yang dikeluarkan sudah termasuk pajak.
+\n4.	Pesanan tidak dapat dibatalkan. Tunggu apalagii pesan sebanyak banyaknyaaa
+"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <Button
+            android:id="@+id/btn_tutup_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="Lanjut"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
